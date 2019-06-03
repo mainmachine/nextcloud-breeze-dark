@@ -33,7 +33,7 @@
   --color-text-maxcontrast: #bdc3c7 !important;
   --color-border: #706f6e !important;
   --color-border-dark: #706f6e !important;
-  --color-primary-element: #3daee9 !important;
+  --color-primary-element: #eaa400 !important;
   --color-error: #da4453 !important;
   --color-warning: #f67400 !important;
   --color-success: #27ae60 !important;
@@ -897,7 +897,7 @@ input:not([type=range]):not(:disabled):not(.primary):not(#quota):hover,
 textarea:not(:disabled):not(.primary):not(#quota):hover,
 div[contenteditable=true]:not(:disabled):not(.primary):not(#quota):hover,
 .pager li a:not(:disabled):not(.primary):not(#quota):hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 input:not([type=range]):not(:disabled):not(.primary):focus, input:not([type=range]):not(:disabled):not(.primary):active,
 textarea:not(:disabled):not(.primary):focus,
@@ -907,20 +907,20 @@ div[contenteditable=true]:not(:disabled):not(.primary):active,
 .pager li a:not(:disabled):not(.primary):focus,
 .pager li a:not(:disabled):not(.primary):active {
   background-color: #232629;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 input:not([type=range]):not(:disabled):not(.primary).active,
 textarea:not(:disabled):not(.primary).active,
 div[contenteditable=true]:not(:disabled):not(.primary).active,
 .pager li a:not(:disabled):not(.primary).active {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 input:not([type=range]):not(:disabled):hover,
 textarea:not(:disabled):hover,
 div[contenteditable=true]:not(:disabled):hover,
 .pager li a:not(:disabled):hover {
   background-color: #232629;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 input:not([type=range]):disabled,
 textarea:disabled,
@@ -945,11 +945,11 @@ div[contenteditable=true]:disabled:active,
 
 div[contenteditable=true]:not(:disabled):hover, div[contenteditable=true]:not(:disabled):active, div[contenteditable=true]:not(:disabled):focus {
   background-color: #232629 !important;
-  border-color: #3daee9 !important;
+  border-color: #eaa400 !important;
 }
 
 textarea:active:not(:disabled), textarea:hover:not(:disabled), textarea:focus:not(:disabled) {
-  border-color: #3daee9 !important;
+  border-color: #eaa400 !important;
   background-color: #232629 !important;
 }
 
@@ -967,7 +967,7 @@ button:not(:disabled):not(.primary):not(#quota):hover,
 .button:not(:disabled):not(.primary):not(#quota):hover,
 input[type=submit]:not(:disabled):not(.primary):not(#quota):hover,
 input[type=button]:not(:disabled):not(.primary):not(#quota):hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 select:not(:disabled):not(.primary):not(#quota):focus, select:not(:disabled):not(.primary):not(#quota):active, select:not(:disabled):not(.primary):not(#quota).active,
 button:not(:disabled):not(.primary):not(#quota):focus,
@@ -982,8 +982,8 @@ input[type=submit]:not(:disabled):not(.primary):not(#quota).active,
 input[type=button]:not(:disabled):not(.primary):not(#quota):focus,
 input[type=button]:not(:disabled):not(.primary):not(#quota):active,
 input[type=button]:not(:disabled):not(.primary):not(#quota).active {
-  background-color: #3daee9;
-  border-color: #3daee9;
+  background-color: #eaa400;
+  border-color: #eaa400;
 }
 select:disabled,
 button:disabled,
@@ -1024,7 +1024,7 @@ button.primary:not(:disabled):hover,
 .button.primary:not(:disabled):hover,
 input[type=submit].primary:not(:disabled):hover,
 input[type=button].primary:not(:disabled):hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
   background-color: #1d99f3;
 }
 select.primary:not(:disabled):focus, select.primary:not(:disabled):active,
@@ -1036,8 +1036,8 @@ input[type=submit].primary:not(:disabled):focus,
 input[type=submit].primary:not(:disabled):active,
 input[type=button].primary:not(:disabled):focus,
 input[type=button].primary:not(:disabled):active {
-  background-color: #3daee9;
-  border-color: #3daee9;
+  background-color: #eaa400;
+  border-color: #eaa400;
 }
 select.primary:disabled,
 button.primary:disabled,
@@ -1070,7 +1070,7 @@ input[type=button].primary:disabled:active {
   border-color: #706f6e;
 }
 #header .button.primary:hover, #header .button.primary:active, #header .button.primary:focus, #header button.primary:hover, #header button.primary:active, #header button.primary:focus {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 
 .link-button:active,
@@ -1078,7 +1078,7 @@ input[type=button].primary:disabled:active {
 .link-button:focus {
   color: #eff0f1;
   background-color: #2980b9;
-  border-color: #3daee9 !important;
+  border-color: #eaa400 !important;
 }
 
 /* General nextcloud -------------------------------------------------------- */
@@ -1087,7 +1087,7 @@ input[type=button].primary:disabled:active {
 }
 .preview:hover, .preview:focus, .preview.selected {
   filter: none;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 
 .dropdown {
@@ -1111,7 +1111,7 @@ input[type=button].primary:disabled:active {
 }
 #alternative-logins li a.button:not(:disabled):not(.primary):not(#quota):hover, #alternative-logins li a.button:not(:disabled):not(.primary):not(#quota):focus, #alternative-logins li a.button:not(:disabled):not(.primary):not(#quota):active {
   background-color: #1d99f3;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 
 /* Header ------------------------------------------------------------------- */
@@ -1138,7 +1138,7 @@ input[type=button].primary:disabled:active {
 .searchbox input[type=search]:focus,
 .searchbox input[type=search]:active,
 .searchbox input[type=search]:valid {
-  border-color: #3daee9 !important;
+  border-color: #eaa400 !important;
   background-color: #232629 !important;
 }
 
@@ -1277,10 +1277,10 @@ span.success {
 
 /* Files table -------------------------------------------------------------- */
 #filestable tbody tr:focus, #filestable tbody tr:active {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 #filestable tbody tr.highlighted, #filestable tbody tr.highlighted .name:focus, #filestable tbody tr.selected, #filestable tbody tr.searchresult {
-  background-color: #3daee9;
+  background-color: #eaa400;
   color: #fcfcfc;
 }
 #filestable tbody tr.highlighted .filename, #filestable tbody tr.highlighted .filesize, #filestable tbody tr.highlighted .date, #filestable tbody tr.highlighted .name:focus .filename, #filestable tbody tr.highlighted .name:focus .filesize, #filestable tbody tr.highlighted .name:focus .date, #filestable tbody tr.selected .filename, #filestable tbody tr.selected .filesize, #filestable tbody tr.selected .date, #filestable tbody tr.searchresult .filename, #filestable tbody tr.searchresult .filesize, #filestable tbody tr.searchresult .date {
@@ -1303,7 +1303,7 @@ span.success {
 }
 
 #oc-dialog-filepicker-content .filepicker_element_selected {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 #oc-dialog-filepicker-content .filepicker_element_selected td {
   font-weight: 600;
@@ -1315,13 +1315,13 @@ span.success {
   background-color: #31363b;
 }
 #oc-dialog-filepicker-content .actions.creatable:hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 #oc-dialog-filepicker-content .actions.creatable a.button {
   border: none;
 }
 #oc-dialog-filepicker-content .actions.creatable a.button:focus, #oc-dialog-filepicker-content .actions.creatable a.button:active {
-  background-color: #3daee9;
+  background-color: #eaa400;
   opacity: 1;
 }
 
@@ -1391,7 +1391,7 @@ ul.multiselectoptions.down {
   border-color: #706f6e;
 }
 .select2-dropdown:hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
@@ -1412,7 +1412,7 @@ ul.multiselectoptions.down {
 
 .select2-container--default .select2-selection--multiple:hover,
 .select2-container--default.select2-container--focus .select2-selection--multiple {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 
 /* Auto suggestion users in comments dropdown ------------------------------- */
@@ -1455,16 +1455,16 @@ ul.multiselectoptions.down {
   opacity: 0.5;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-week-end:not(.ui-state-disabled) :not(.ui-state-hover):not(.ui-state-active) {
-  color: #3daee9;
+  color: #eaa400;
   opacity: 1;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-week-end:not(.ui-state-disabled) .ui-priority-secondary:not(.ui-state-hover) {
-  color: #3daee9;
+  color: #eaa400;
   opacity: 0.7;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day:not(.ui-state-disabled) a.ui-state-active, .ui-widget.ui-datepicker .ui-datepicker-calendar td .ui-state-hover,
 .ui-widget.ui-datepicker .ui-datepicker-calendar td .ui-state-focus {
-  background-color: #3daee9;
+  background-color: #eaa400;
   color: #fcfcfc;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today a:not(.ui-state-hover) {
@@ -1502,7 +1502,7 @@ ul.multiselectoptions.down {
 .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-hour-cell a.ui-state-active, .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-minute-cell a.ui-state-active,
 .ui-widget.ui-timepicker .ui-timepicker-table td .ui-state-hover,
 .ui-widget.ui-timepicker .ui-timepicker-table td .ui-state-focus {
-  background-color: #3daee9;
+  background-color: #eaa400;
   color: #fcfcfc;
 }
 
@@ -1551,7 +1551,7 @@ ul.multiselectoptions.down {
   background-color: #232629 !important;
 }
 .ui-button.ui-state-active, .ui-button.ui-state-hover, .ui-button:hover {
-  border-color: #3daee9 !important;
+  border-color: #eaa400 !important;
 }
 .ui-button:disabled, .ui-button.ui-button-disabled, .ui-button.ui-state-disabled {
   background-color: #4d4d4d !important;
@@ -1630,7 +1630,7 @@ ul.multiselectoptions.down {
 #app-navigation ul > li > a.active:hover,
 #app-navigation li > a.active:hover,
 #app-navigation ul > li > ul > li > a.active:hover {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 #app-navigation .collapsible:hover::before {
   background-color: unset;
@@ -1639,7 +1639,7 @@ ul.multiselectoptions.down {
   background-image: none;
 }
 #app-navigation .active {
-  background-color: #3daee9;
+  background-color: #eaa400;
   color: #fcfcfc;
   font-weight: 600;
 }
@@ -1676,7 +1676,7 @@ ul.multiselectoptions.down {
 }
 
 .tabHeaders .tabHeader.selected, .tabHeaders .tabHeader:hover, .tabHeaders .tabHeader:focus {
-  border-bottom: 1px solid #3daee9;
+  border-bottom: 1px solid #eaa400;
 }
 .tabHeaders .tabHeader.selected a, .tabHeaders .tabHeader:hover a, .tabHeaders .tabHeader:focus a {
   color: #fcfcfc;
@@ -1703,7 +1703,7 @@ ul.multiselectoptions.down {
   color: #eff0f1;
 }
 .ui-widget-content .ui-state-focus {
-  border-color: #3daee9;
+  border-color: #eaa400;
   background: rgba(61, 174, 233, 0.25);
   color: #eff0f1;
 }
@@ -1769,19 +1769,19 @@ ul.multiselectoptions.down {
   border-radius: 50%;
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td.highlight-today button.active {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td.highlight-weekend button {
-  color: #3daee9;
+  color: #eaa400;
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td.highlight-weekend button .text-muted {
-  color: #3daee9;
+  color: #eaa400;
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td.highlight-weekend button:hover {
   color: #fcfcfc;
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td.highlight-weekend button.active:hover {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td button:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -1808,7 +1808,7 @@ ul.multiselectoptions.down {
   opacity: 0.3;
 }
 .app-calendar #app-content #fullcalendar .fc-today {
-  background-color: #3daee9;
+  background-color: #eaa400;
   color: #fcfcfc;
 }
 .app-calendar #app-content #fullcalendar .fc-today > .fc-day-number {
@@ -1846,7 +1846,7 @@ ul.multiselectoptions.down {
 }
 
 .app-contacts #app-content .app-content-list-item.active {
-  background-color: #3daee9;
+  background-color: #eaa400;
   color: #fcfcfc;
   font-weight: 600;
 }
@@ -1978,7 +1978,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   color: #eff0f1;
 }
 .app-mail #account-form .tabs-component-tab.is-active {
-  border-bottom-color: #3daee9;
+  border-bottom-color: #eaa400;
 }
 
 .app-mail #app-navigation #app-settings .app-settings-hint a.active {
@@ -2081,7 +2081,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   background-color: rgba(61, 174, 233, 0.25);
 }
 #editor_controls #editor_close:active, #editor_controls #editor_close:focus {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 
 #editor.ace_editor,
@@ -2148,7 +2148,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   opacity: 1;
 }
 .app-audioplayer #app-navigation #myCategory li.activeHover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-audioplayer #app-navigation #myCategory li.dropHover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -2164,7 +2164,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   background-color: #232629;
 }
 .app-audioplayer #app-content .sm2-bar-ui .sm2-progress .sm2-progress-bar {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-audioplayer #app-content .sm2-bar-ui .sm2-progress .sm2-progress-ball {
   background-color: #f2f2f2;
@@ -2204,7 +2204,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
 .app-bookmarks #app-navigation .folders-item.droptarget-folder > a,
 .app-bookmarks #app-navigation .folders-item.droptarget-bookmark > a {
   background-color: #31363b;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-bookmarks #app-navigation .folders-item.droptarget-folder > a:hover,
 .app-bookmarks #app-navigation .folders-item.droptarget-bookmark > a:hover {
@@ -2296,7 +2296,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   color: #eff0f1;
 }
 .app-circles #circle-navigation.circles .circle.selected {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-circles #circle-navigation #circles_list div {
   color: #eff0f1;
@@ -2307,7 +2307,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   background: rgba(61, 174, 233, 0.25);
 }
 .app-circles #circle-navigation #circles_list .selected {
-  background: #3daee9 !important;
+  background: #eaa400 !important;
 }
 .app-circles #circle-navigation #circles_new_type_definition div {
   color: #eff0f1;
@@ -2320,7 +2320,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   color: #eff0f1;
 }
 .app-circles #app-content #mainui #circle_details .lightenbg {
-  background: #3daee9;
+  background: #eaa400;
 }
 .app-circles #app-content #mainui #memberslist .entry td {
   color: #eff0f1;
@@ -2379,7 +2379,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   border: 1px solid #706f6e;
 }
 .app-deck #app-content #controls #stack-add:hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-deck #app-content #controls .board-header-controls > button i.icon-archive {
   opacity: 1 !important;
@@ -2401,14 +2401,14 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   box-shadow: none;
 }
 .app-deck #app-content #board .card:hover, .app-deck #app-content #board .card.current {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-deck #app-content #board .card.create {
   border-color: #706f6e !important;
 }
 .app-deck #app-content #board .card.create:hover {
   background-color: rgba(61, 174, 233, 0.25);
-  border-color: #3daee9 !important;
+  border-color: #eaa400 !important;
 }
 .app-deck #app-content #board .card .card-controls {
   background-color: #232629;
@@ -2465,7 +2465,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   color: #eff0f1;
   background-color: rgba(61, 174, 233, 0.25);
   text-shadow: none;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-flowupload .table-bordered {
   border-color: #706f6e;
@@ -2678,7 +2678,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   background-color: rgba(61, 174, 233, 0.25);
 }
 .app-music #app-content #controls .play-bar {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-music #app-content #app-sidebar .close, .app-music #app-content #app-sidebar #follow-playback {
   background-color: unset;
@@ -2702,7 +2702,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   background-color: rgba(61, 174, 233, 0.25);
 }
 #music-controls .play-bar {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 
 /* News --------------------------------------------------------------------- */
@@ -2729,7 +2729,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   color: #2980b9;
 }
 .app-news #app-content .body blockquote {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-news #app-content .body h1, .app-news #app-content .body h2, .app-news #app-content .body h3 {
   color: #fcfcfc;
@@ -2818,7 +2818,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   color: #fcfcfc;
 }
 #jsxc_dialog .btn-default:active, #jsxc_dialog .btn-default:focus, #jsxc_webrtc .btn-default:active, #jsxc_webrtc .btn-default:focus {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 #jsxc_dialog pre, #jsxc_webrtc pre {
   color: #eff0f1;
@@ -2836,7 +2836,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
 }
 #jsxc_dialog .form-control:focus, #jsxc_webrtc .form-control:focus {
   box-shadow: none;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 #jsxc_dialog hr, #jsxc_webrtc hr {
   border-top-color: #706f6e;
@@ -2928,14 +2928,14 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   background-color: rgba(61, 174, 233, 0.25) !important;
 }
 .app-passman #app-navigation .nav-trashbin a.active {
-  background-color: #3daee9 !important;
+  background-color: #eaa400 !important;
 }
 
 .app-passman #app-content #app-content-wrapper .credential-table tr:hover {
   background-color: rgba(61, 174, 233, 0.25);
 }
 .app-passman #app-content #app-content-wrapper .credential-table tr.selected {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-passman #app-content #app-content-wrapper .credential-table tr td {
   border-bottom-color: #706f6e;
@@ -2945,7 +2945,7 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   border-color: #706f6e;
 }
 .app-passman #app-content #app-content-wrapper .viewModes .view-mode.active {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-passman #app-content #app-content-wrapper .tags .tag,
 .app-passman #app-content #app-content-wrapper .app_sidebar .credential-data .tags .tag {
@@ -3001,14 +3001,14 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   border: 1px solid #706f6e;
 }
 .app-passman #app-content .inputfile + label:hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-passman #app-content .icon-label .icon-picker .cell {
   border-color: #706f6e;
   background-color: #31363b;
 }
 .app-passman #app-content .icon-label .icon-picker .cell:hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-passman #app-content .btn-danger {
   text-shadow: none;
@@ -3051,7 +3051,7 @@ tags-input .tags.focused {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 tags-input .tags .tag-item {
   border-color: #706f6e;
@@ -3088,11 +3088,11 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   color: #eff0f1;
 }
 .angularjs-datetime-picker .adp-month > button:hover {
-  color: #3daee9;
+  color: #eaa400;
 }
 .angularjs-datetime-picker .adp-days > .adp-day.selected {
   background: rgba(61, 174, 233, 0.25);
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .angularjs-datetime-picker .adp-days > .adp-day.selectable:hover {
   background: rgba(61, 174, 233, 0.25);
@@ -3171,11 +3171,11 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   border-color: #706f6e;
 }
 .app-passwords #app-popup #passwords-create-new .window form.content .notes-container .editor-toolbar a:hover {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-passwords #app-popup #passwords-create-new .window form.content .notes-container .editor-toolbar a.active {
-  background-color: #3daee9;
-  border-color: #3daee9;
+  background-color: #eaa400;
+  border-color: #eaa400;
 }
 .app-passwords #app-popup #passwords-create-new .window form.content .notes-container .editor-toolbar.disabled-for-preview a:not(.no-disable) {
   background-color: #4d4d4d;
@@ -3185,7 +3185,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   background-color: #31363b;
 }
 .app-passwords #app-popup #passwords-create-new .window form.content .notes-container .CodeMirror span.CodeMirror-selectedtext {
-  background-color: #3daee9;
+  background-color: #eaa400;
   padding: 1.225px 0;
 }
 
@@ -3198,7 +3198,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   border-color: #706f6e;
 }
 .oc-dialog-buttonrow.twobuttons button.primary:hover, .oc-dialog-buttonrow.twobuttons button.primary:active, .oc-dialog-buttonrow.twobuttons button.primary:focus {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 
 .app-ocsms #app-content-header {
@@ -3219,10 +3219,10 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   background: none;
 }
 #app-mailbox-peers .selected {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 #app-mailbox-peers .selected:hover {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 #app-mailbox-peers .selected a {
   background: none;
@@ -3336,7 +3336,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 
 /* Radio -------------------------------------------------------------------- */
 .app-radio #app-navigation #app-settings #volumeslider .ui-slider-range {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-radio #app-navigation #app-settings #volumeslider .ui-slider-handle.ui-state-focus {
   background-color: #31363b;
@@ -3378,7 +3378,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   background-color: rgba(61, 174, 233, 0.25);
 }
 #app-navigation .app-navigation-entry-edit input.action:active, #app-navigation .app-navigation-entry-edit input.action:focus {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 
 .app-tasks #app-content #add-task {
@@ -3404,7 +3404,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   background-color: rgba(61, 174, 233, 0.25);
 }
 .app-tasks #app-content .task-body.active {
-  background-color: #3daee9;
+  background-color: #eaa400;
 }
 .app-tasks #app-content .task-body .title-wrapper {
   color: #eff0f1;
@@ -3432,11 +3432,11 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 .app-tasks #app-content .task-list .loadmore span:hover {
   color: #eff0f1;
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 
 .app-tasks #app-sidebar div.content-wrapper .title {
-  background-color: #3daee9;
+  background-color: #eaa400;
   border-bottom-color: #706f6e;
 }
 .app-tasks #app-sidebar div.content-wrapper .title .expandable-container {
@@ -3472,7 +3472,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   border-color: #1d99f3;
 }
 .app-tasks #app-sidebar div.content-wrapper .reactive:hover .detail-checkbox:not(.disabled) {
-  border-color: #3daee9;
+  border-color: #eaa400;
 }
 .app-tasks #app-sidebar div.content-wrapper .footer {
   border-top: none;
@@ -3566,7 +3566,7 @@ button#deleteaccount:disabled {
   box-shadow: inset 4px 0 var(--color-primary);
 }
 .app-weather #city-list-left .city-list li.selected, .app-weather #city-list-left .city-list li.selected a {
-  background-color: #3daee9;
+  background-color: #eaa400;
   color: #fcfcfc;
   font-weight: 600;
   box-shadow: inset 4px 0 var(--color-primary);
@@ -3575,8 +3575,8 @@ button#deleteaccount:disabled {
   background-color: #31363b;
   border-left: none;
   border-right: none;
-  border-top-color: #3daee9;
-  border-bottom-color: #3daee9;
+  border-top-color: #eaa400;
+  border-bottom-color: #eaa400;
 }
 .app-weather #city-list-left .city-list #create-city h1 {
   color: #fcfcfc;
