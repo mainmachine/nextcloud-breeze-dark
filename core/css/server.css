@@ -21,7 +21,7 @@
 */
 /* Set the nextcloud color variables */
 :root {
-  --color-primary: #1d99f3 !important;
+  --color-primary: #EAA400 !important;
   --color-main-background: #31363b !important;
   --color-background-dark: rgba(61, 174, 233, 0.25) !important;
   --color-background-darker: #232629 !important;
@@ -37,7 +37,7 @@
   --color-error: #da4453 !important;
   --color-warning: #f67400 !important;
   --color-success: #27ae60 !important;
-  --color-box-shadow: #1d99f3 !important;
+  --color-box-shadow: #EAA400 !important;
 }
 
 input, label {
